@@ -19,7 +19,7 @@ Combobox form field with SVG flags for selecting countries for Sencha ExtJS / cl
 [https://github.com/wencywww/Ext.ux.form.field.CountryFlagTag](https://github.com/wencywww/Ext.ux.form.field.CountryFlagTag)
 
 
-[Sencha's Fiddle: ttps://fiddle.sencha.com/#fiddle/3fv0](ttps://fiddle.sencha.com/#fiddle/3fv0)
+[Sencha's Fiddle: https://fiddle.sencha.com/#fiddle/3fv0](https://fiddle.sencha.com/#fiddle/3fv0)
 <br><br>
 
 
