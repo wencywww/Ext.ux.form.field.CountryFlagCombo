@@ -12,7 +12,15 @@ Combobox form field with SVG flags for selecting countries for Sencha ExtJS / cl
 **Demos**
 
 [Sencha's Fiddle: https://fiddle.sencha.com/#fiddle/3fmv](https://fiddle.sencha.com/#fiddle/3fmv)
+<br><br>
 
+**Tag field version available with multi-select**
+
+[https://github.com/wencywww/Ext.ux.form.field.CountryFlagTag](https://github.com/wencywww/Ext.ux.form.field.CountryFlagTag)
+
+
+[Sencha's Fiddle: ttps://fiddle.sencha.com/#fiddle/3fv0](ttps://fiddle.sencha.com/#fiddle/3fv0)
+<br><br>
 
 
 
@@ -34,12 +42,12 @@ Combobox form field with SVG flags for selecting countries for Sencha ExtJS / cl
   * Supports **multiple instances** on a single page, all of them with independant configurations (the instance stores are created on the fly sharing the hard-coded prototype data)
   * Tested with ExtJS version 4.1.1 and up to 7.4.0
 
-
+<br><br>
 **Cons:**
 
   * Relativelty large file size, with all SVG data it is ~ 2.5 MB after SVGO optimizations
 
-    
+<br><br>    
 **Configuration options**
 
   * All configs below are optional, defaults are applied if not provided
@@ -59,11 +67,11 @@ Combobox form field with SVG flags for selecting countries for Sencha ExtJS / cl
 
   * **zoneGroups** `(boolean, default: false)`: Turns country grouping by world regions on/off within the dropdown list. Region grouping is visual and independant from zone filtering below.
 
-  * **filterZones** `(boolean|array of strings, default: false)`: Filters combo store by country region. Regions available are: Antarctica, Africa, Asia, Europe, North America, South America and Oceania. Filtering is case insensitive. The filtering mode is determined by the `filterZonesMode` config
+  * **filterZones** `(boolean|array of strings, default: false)`: Filters the combo store by country region. Regions available are: Antarctica, Africa, Asia, Europe, North America, South America and Oceania. The filtering is case insensitive. The filtering mode is determined by the `filterZonesMode` config
 
   * **filterZonesMode** `(string, default: 'include')`: Determines how the countries are filtered by their regions. If 'include', the instance store will contain only countries in regions available in the `filterZones` array. If 'exclude', the appropriate countries will be excluded from the store
 
-  * **filterCountries** `(boolean|array of strings, default: false)`: Filters combo store by **country name** or **country code** (codes and names can be mixed and are case insensitive). The filtering mode is determined by `filterCountriesMode` config
+  * **filterCountries** `(boolean|array of strings, default: false)`: Filters the combo store by **country name** or **country code** (codes and names can be mixed and are case insensitive). The filtering mode is determined by `filterCountriesMode` config
 
   * **filterCountriesMode** `(string, default: 'include')`: Determines how the countries are filtered by their names/codes. If 'include' the instance store will contain only countries available in the `filterCountries` array. If 'exclude', the matching countries will be excluded from the store
 
@@ -98,4 +106,5 @@ Combobox form field with SVG flags for selecting countries for Sencha ExtJS / cl
 
 **List of Changes**
 
+  * **2021-09-07**, updated Readme.md
   * **2021-09-02**, initial commit
